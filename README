@@ -1,0 +1,10 @@
+#Example code for reconstructing KWOCA18 D5 cage
+cd pairing
+python get_rmsd.py
+python get_rmsd_2.py
+python get_rmsd_3.py
+python pairing.py
+cd ../gen_cage
+python gen_asu.py
+cat asu_1.pdb asu_2.pdb asu_3.pdb > full_asu.pdb
+python gen_cage.py
