@@ -144,6 +144,6 @@ def mergy(pdbD,pdbT,dC,tC,N):
     fout.close()
 
 
-stitchy('../D1.pdb','../T1.pdb',1)
-stitchy('../D2.pdb','../T1.pdb',2)
-stitchy('../D1.pdb','../T1b.pdb',3)
+stitchy('../pairing/D1.pdb','../pairing/T1.pdb',1)
+stitchy('../pairing/D2.pdb','../pairing/T1.pdb',2)
+stitchy('../pairing/D1.pdb','../pairing/T1b.pdb',3)

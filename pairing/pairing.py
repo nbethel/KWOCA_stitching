@@ -42,5 +42,5 @@ while len(lline)>0:
 fin.close()
 shutil.copyfile(outs[0],'T1.pdb')
 shutil.copyfile(outs[1],'D1.pdb')
-shutil.copyfile(outs[3],'D2.pdb')
-shutil.copyfile(outs[9],'T1b.pdb')
+shutil.copyfile(outs[2],'D2.pdb')
+shutil.copyfile(outs[3],'T1b.pdb')

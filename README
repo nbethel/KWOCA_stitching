@@ -1,4 +1,12 @@
+#Required dependencies: 
+#    numpy (version used - 1.21.6)
+#    biopython (version used - 1.80)
+
+#No installation is needed to run this code
+
 #Example code for reconstructing KWOCA18 D5 cage
+#Expected output: PDB file of reconstructed KWOCA18_D5 - D5_cage.pdb 
+#Run time on desktop computer: 45 min
 cd pairing
 python get_rmsd.py
 python get_rmsd_2.py
@@ -8,3 +16,4 @@ cd ../gen_cage
 python gen_asu.py
 cat asu_1.pdb asu_2.pdb asu_3.pdb > full_asu.pdb
 python gen_cage.py
+

@@ -1,7 +1,12 @@
+from glob import glob
+import numpy
+import Bio.PDB
+from Bio.SVDSuperimposer import SVDSuperimposer
 dimers=glob('../dimer_1/selects/snap*.pdb')
 trimers=glob('../trimer/selects/snap*.pdb')
 fout=open('logger1.log','w')
 for trimer in trimers:
+  print(trimer)
   flag=False
   start_id = 82
   end_id   = 102
